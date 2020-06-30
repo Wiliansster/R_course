@@ -157,10 +157,10 @@ w2 <- E(g2)$hours
 m2 <- layout_nicely(g2)
 
 plot(g2, 
-     vertex.label.color = "black", 
-     edge.color = 'black',
-     edge.width = w2,
-     layout = m2)
+    vertex.label.color = "black", 
+    edge.color = 'black',
+    edge.width = w2,
+    layout = m2)
 
 ######################
 # Quiz on igraph objects
